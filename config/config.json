@@ -1,29 +1,29 @@
 {
   "development": {
-    "username": "root",
-    "password": "",
-    "database": "sql_myshop",
-    "host": "127.0.0.1",
+    "username": "je1r5m7yszfj6q12",
+    "password": "dopub4d9ucprtprc",
+    "database": "ga6vxhpr3h1vwv60",
+    "host": "u3r5w4ayhxzdrw87.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql",
     "define": {
       "timestamps": false
     }
   },
   "test": {
-    "username": "root",
-    "password": "",
-    "database": "sql_myshop",
-    "host": "127.0.0.1",
+    "username": "je1r5m7yszfj6q12",
+    "password": "dopub4d9ucprtprc",
+    "database": "ga6vxhpr3h1vwv60",
+    "host": "u3r5w4ayhxzdrw87.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql",
     "define": {
       "timestamps": false
     }
   },
   "production": {
-    "username": "root",
-    "password": "",
-    "database": "sql_myshop",
-    "host": "127.0.0.1",
+    "username": "je1r5m7yszfj6q12",
+    "password": "dopub4d9ucprtprc",
+    "database": "ga6vxhpr3h1vwv60",
+    "host": "u3r5w4ayhxzdrw87.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql",
     "define": {
       "timestamps": false
