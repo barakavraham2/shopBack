@@ -56,7 +56,7 @@ router.get('/user/:userID', async (req, res) => {
 })
 router.get('/getcart/:cartId', async (req, res) => {
 
-    const resulte = await sequelize.query(`SELECT productId,cartId,quantity,name,img,description,price,TotalPrice FROM sql_myshop.cart_item join products  where cart_item.productId = products.id AND cart_item.cartId=${req.params.cartId}`
+    const resulte = await sequelize.query(`SELECT productId,cartId,quantity,name,img,description,price,TotalPrice FROM cart_item join products  where cart_item.productId = products.id AND cart_item.cartId=${req.params.cartId}`
         , { type: QueryTypes.SELECT })
         .then(cart => res.status(200).send(cart))
         .catch(err => res.send(err))
